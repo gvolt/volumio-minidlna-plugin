@@ -1,7 +1,7 @@
 **1.1.1**
 
 * minidlna.tmpl: Renamed to minidlna.conf.tmpl
-* index.js: Adapted to the new file name of minidlna.tmpl; show error message if path to music, pictures or video files does not exist
+* index.js: Adapted to the new file name of minidlna.tmpl; show error message if path to music, pictures or video files does not exist; fixed two missing "/" signs in error message
 * i18n/strings_xx.json: Added "MISSING" string for the new error message
 * package.json: Updated version number to 1.1.1
 
