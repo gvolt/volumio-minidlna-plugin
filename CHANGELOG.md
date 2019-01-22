@@ -1,3 +1,11 @@
+**1.1.2**
+
+* index.js: Code linted according to JavaScript Semi-Standard Style (https://github.com/Flet/semistandard); added check for port number, inotify interval and number of max. connections to be numeric values and not exceeding a given range; reworked function "getI18nFile"
+* UIConfig.json: Added placeholder values to input fields showing the default values
+* i18n/strings_xx.json: Added strings for messages shown if values entered for port number, inotify interval and number of max. connections are not numbers or not in the given range
+* package.json: Updated version number to 1.1.2
+
+
 **1.1.1**
 
 * minidlna.tmpl: Renamed to minidlna.conf.tmpl
