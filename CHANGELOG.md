@@ -1,3 +1,11 @@
+**1.1.3**
+
+* index.js: Added function "updateUIConfig" for updating the UI in case a user set value gets automatically corrected; simplified "systemctl" function; make use of "const" and "let"
+* install.sh: Added sudo when calling systemctl daemon-reload
+* uninstall.sh: Added sudo when calling systemctl daemon-reload
+* package.json: Updated version number to 1.1.3; changed to up-to-date versions of npm modules "fs-extra" and "v-conf"
+
+
 **1.1.2**
 
 * index.js: Code linted according to JavaScript Semi-Standard Style (https://github.com/Flet/semistandard); added check for port number, inotify interval and number of max. connections to be numeric values and not exceeding a given range; reworked function "getI18nFile"
