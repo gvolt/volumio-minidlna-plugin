@@ -10,7 +10,7 @@ sudo rm /etc/minidlna.conf
 
 echo "Deleting systemd unit /etc/systemd/system/minidlna.service"
 sudo rm /etc/systemd/system/minidlna.service
-systemctl daemon-reload
+sudo systemctl daemon-reload
 
 echo "Done"
 echo "pluginuninstallend"
